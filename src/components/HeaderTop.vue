@@ -1,24 +1,24 @@
 <template>
     <div class="header_top flex">
-        <div class="container">
+      <div class="container">
         <div class="row">
-            <menu class="flex">
+          <menu class="flex">
             <ul class="menu flex">
-                Everything about Lifestyle, Travel and Gadgets
-                <li>
-                <a href="#" v-for="(item, i) in menuHeaderTop" :key="i"> 
-                    {{ item }}
+              Everything about Lifestyle, Travel and Gadgets
+              <li v-for="(item, i) in menuHeaderTop" :key="i">
+                <a href="#" > 
+                        {{ item }}
                 </a>
-                </li>
-            </ul>
+              </li>
+            </ul>                
             <div class="icone_social flex">
-                <font-awesome-icon icon="fa-brands fa-facebook-f" />
-                <font-awesome-icon icon="fa-brands fa-twitter" />
-                <font-awesome-icon icon="fa-brands fa-linkedin" />
+                    <font-awesome-icon icon="fa-brands fa-facebook-f" />
+                    <font-awesome-icon icon="fa-brands fa-twitter" />
+                    <font-awesome-icon icon="fa-brands fa-linkedin" />
             </div>
-            </menu>  <!-- Fine Menu -->
+          </menu>  <!-- Fine Menu -->
         </div> <!-- Fine Row Menu -->
-        </div> <!-- Fine Container Menu -->
+      </div> <!-- Fine Container Menu -->
     </div> <!-- Fine Header Top -->    
   </template>
   
@@ -36,8 +36,14 @@
   
     .header_top {
       background-color: #0088CC;
-      height: 50px;
+      min-height: 50px;
       align-items: center;
+
+      .icone_social {
+      margin-left: auto;
+      color: white;
+      gap: 30px;
+      }
   
       ul {
         color: white;
@@ -47,15 +53,8 @@
         a {
         color: white;
         text-transform: uppercase;
-        padding: 0 10px;
         }
       } 
-    
-    .icone_social {
-      margin-left: auto;
-      color: white;
-      gap: 30px;
-    }
       
     }
   

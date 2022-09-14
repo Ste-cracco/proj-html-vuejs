@@ -12,8 +12,10 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+
 /* add icons to the library */
-library.add(faFacebookF, faTwitter, faLinkedin)
+library.add(faFacebookF, faTwitter, faLinkedin, faMagnifyingGlass)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
