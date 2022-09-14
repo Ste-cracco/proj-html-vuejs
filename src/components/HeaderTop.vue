@@ -35,7 +35,7 @@
   <style scoped lang="scss">
   
     .header_top {
-      background-color: #0088CC;
+      background-color: var(--azzurro);
       min-height: 50px;
       align-items: center;
 

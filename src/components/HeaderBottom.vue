@@ -17,7 +17,7 @@
             </div> <!-- Fine Row Menu -->  
         </div> <!-- Fine Container Menu -->
     </div> <!-- Fine Header Top -->    
-  </template>
+</template>
   
 
   <script>
@@ -50,7 +50,7 @@
             font-size: 1rem;
             gap: 50px;
 
-            li {
+            a {
                 color: #444;
                 text-transform: uppercase;
                 font-weight: 700;
