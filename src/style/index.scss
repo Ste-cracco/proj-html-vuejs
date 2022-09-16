@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-:root {
-    --colore_titoli: #212529; 
+:root { 
+    --bianco: white;
     --azzurro: #0088CC;
+    --grigio_chiaro: #B7B7B7;
+    --grigio_scuro: #444;
+    --grigio: #555;
+    --grigio_testo: #888;
+    --grigio_molto_scuro: #212529;
     --dimensione_titolo_secondario: 1rem;
 }
 
@@ -32,6 +37,11 @@ ul, li, menu {
 .flex_column {
     display: flex;
     flex-direction: column;
+}
+
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .grid {

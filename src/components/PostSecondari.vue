@@ -10,7 +10,7 @@
   
 <script>
   export default {
-    name: 'CreazioneCard',
+    name: 'PostSecondari',
     props: {
         post: Object,
     }
@@ -27,7 +27,7 @@
 
             span {
                 font-size: 0.8em;
-                color: #B7B7B7;
+                color: var(--grigio_testo);
             }
         }
     }

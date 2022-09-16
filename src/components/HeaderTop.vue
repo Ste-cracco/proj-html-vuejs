@@ -41,17 +41,17 @@
 
       .icone_social {
       margin-left: auto;
-      color: white;
+      color: var(--bianco);
       gap: 30px;
       }
   
       ul {
-        color: white;
+        color: var(--bianco);
         font-size: 0.9rem;
         gap: 30px;
   
         a {
-        color: white;
+        color: var(--bianco);
         text-transform: uppercase;
         }
       } 

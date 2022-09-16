@@ -35,7 +35,7 @@
   <style scoped lang="scss">
 
     .header_bottom {
-        background-color: white;
+        background-color: var(--bianco);
         min-height: 65px;
         align-items: center;
         border-top: 1px solid lightgray;
@@ -43,7 +43,7 @@
 
         .container_search {
             margin-left: auto;
-            color: #444;
+            color: var(--grigio_scuro);
         }
 
         ul {
@@ -51,7 +51,7 @@
             gap: 50px;
 
             a {
-                color: #444;
+                color: var(--grigio_scuro);
                 text-transform: uppercase;
                 font-weight: 700;
             }

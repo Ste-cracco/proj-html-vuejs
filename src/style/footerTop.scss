@@ -1,0 +1,118 @@
+.container_footer_top {
+    background-color: var(--grigio_molto_scuro);
+
+    .row {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    h6 {
+        font-size: var(--dimensione_titolo_secondario);
+        text-transform: uppercase;
+        color: var(--bianco);
+        padding: 20px 0;
+    }
+
+    .container_about_the_blog {
+        padding-right: 20px;
+
+        p {
+            color: #888;
+            font-size: 14px;
+            padding-bottom: 10px;
+            line-height: 30px;
+
+        }
+
+        p:first-of-type {
+            padding-bottom: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            color: var(--bianco);
+            font-weight: 700;
+        }
+    }
+
+    .container_recent_posts {
+        padding-left: 20px;
+
+        img {
+            border-radius: 50px;
+            width: 80px;
+        }
+
+        .container_contenuto {
+            padding-bottom: 30px;
+        }
+
+        .container_testo {
+            padding-left: 20px;
+
+            p {
+                color: var(--grigio_chiaro);
+                padding-bottom: 10px;
+                font-size: 14px;
+            }
+
+            span {
+                color: var(--grigio_scuro);
+                font-size: 13px;
+            }
+        }
+    }
+
+    .container_recent_comments {            
+
+        .container_contenuto {
+            font-size: 14px;
+            color: var(--bianco);
+            line-height: 30px;
+        }
+
+        .container_contenuto:last-of-type {
+            padding-top: 20px;
+        }
+
+        svg {
+            color: var(--azzurro);
+        }
+
+        .user {
+            font-weight: 800;
+        }
+
+        .link_text {
+            color: var(--azzurro);
+        }
+
+        .date {
+            color: var(--grigio_scuro);
+            display: block;
+            font-size: 13px;
+            padding-top: 5px;
+        }
+    }
+
+    .container_categories {
+        padding-left: 29px;
+
+        ul {
+            gap: 14px;
+
+            li {
+                background: black;
+                color: var(--bianco);
+                text-transform: uppercase;
+                font-size: 13px;
+                padding: 5px 8px;
+                border-radius: 7px;
+                font-weight: 600;
+            }
+        }            
+    }
+}

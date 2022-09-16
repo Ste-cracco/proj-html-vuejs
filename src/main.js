@@ -13,9 +13,15 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
+
+import { faUser } from '@fortawesome/free-regular-svg-icons'
+import { faFolder} from '@fortawesome/free-regular-svg-icons'
+import { faComments } from '@fortawesome/free-regular-svg-icons'
 
 /* add icons to the library */
-library.add(faFacebookF, faTwitter, faLinkedin, faMagnifyingGlass)
+library.add(faFacebookF, faTwitter, faLinkedin, faMagnifyingGlass, faAngleRight, faAngleLeft, faUser, faFolder, faComments)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)

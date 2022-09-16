@@ -1,0 +1,28 @@
+.col_1 {
+    width: 70%;  
+    
+    .bordo_separatore {
+        border: 1px solid lightgray;
+        margin-top: -30px;
+    }
+
+    .container_numero_pagine {
+        margin-top: 45px;
+        margin-bottom: 70px;
+
+        .numero_pagine {
+            justify-content: flex-end;
+
+            .pagina {
+                border: 1px solid lightgray;
+                color: var(--azzurro);
+                padding: 10px 12px;                
+            }
+
+            .active {
+                background-color: var(--azzurro);
+                color: var(--bianco);
+            }
+        }              
+    }
+}

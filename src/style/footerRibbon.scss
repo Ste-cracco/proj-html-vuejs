@@ -1,0 +1,36 @@
+#footer {
+    background: #212529;
+    border-top: 4px solid #212529;
+    font-size: 0.9em;
+    margin-top: 50px;
+    padding: 0;
+    position: relative;
+    clear: both;
+}
+
+.footer_ribbon {
+    position: absolute;
+    background: var(--azzurro);
+    margin: -20px 0 0 0;
+    padding: 10px 20px 6px 20px;
+
+    span {
+        font-family: "Shadows Into Light", cursive;
+        color: var(--bianco);
+        font-size: 1.6em;
+    }
+}
+
+.footer_ribbon:before {
+    border-right-color: #005580;
+    border-left-color: #005580;
+    border-right: 10px solid #005580;
+    border-top: 16px solid transparent;
+    content: "";
+    display: block;
+    height: 0;
+    right: 100%;
+    position: absolute;
+    top: 0;
+    width: 7px;
+}
